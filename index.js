@@ -1,8 +1,8 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"
-import { getDatabase, ref, push, onValue,remove } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
+import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
+import { getDatabase, ref, push, onValue,remove } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-database.js"
 
 const appSettings = {
-    databaseURL: "https://realtime-database-8354a-default-rtdb.europe-west1.firebasedatabase.app/"
+    databaseURL: "https://cart-app-database-30b32-default-rtdb.europe-west1.firebasedatabase.app/"
 }
 
 const app = initializeApp(appSettings)
